@@ -1,15 +1,19 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 
 Vue.use(Router)
 
+import home from '../containers/Home'
+
+// application routes
+const routes = [
+  { path: '/', component: home }
+]
+
+
+// export router instance
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
-  ]
+  mode: 'history',
+  routes,
+  linkActiveClass: 'is-active'
 })
