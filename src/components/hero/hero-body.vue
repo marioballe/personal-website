@@ -3,14 +3,14 @@
   <div class="hero-body">
     <div id="profile-div" class="container has-text-centered hidden">
       <figure class="image is-256x256 is-centered">
-        <img src="/static/perfil.jpg">
+        <img src="/static/perfil.png">
       </figure>
       <h1 class="title">
         Hola! Soy <strong class="is-pink">Mario Ballester</strong>, encantado de conocerte!
       </h1>
-      <h2 class="subtitle">
+      <h4 class="subtitle">
         <code>Soy desarrollador <strong class="is-primary">Fullstack</strong> actualmente viviendo en Barcelona.</code>
-      </h2>
+      </h4>
       <social :socialMedia="socialMedia"/>
     </div>
   </div>
@@ -39,9 +39,10 @@
   
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
   $primary: #00d1b2;
   $pink: #ff3860;
+   
   .hero-body {
     #profile-div {
       //top: 0px;
@@ -53,11 +54,18 @@
       margin-top: -200px;
     }
     .title {
+      font-size: 28px;
+      line-height: 1;
+      font-weight: lighter;
+      font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
       strong.is-pink {
         color: $pink;
       }
     }
     .subtitle {
+      font-size: 19px;
+      font-family: Courier, "Lucida Console", monospace;
+
       strong.is-primary {
         color: $primary;
       }

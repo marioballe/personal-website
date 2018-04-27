@@ -11,11 +11,6 @@ export default {
   name: 'hero',
   components: {
     herobody
-  },
-  data () {
-    return {
-      tabs
-    }
   }
 }
 

@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-import home from '../containers/Home'
+import home from '../containers/home'
 
 // application routes
 const routes = [
