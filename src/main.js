@@ -4,6 +4,7 @@ import Vue from 'vue'
 import hero from './components/hero/hero'
 
 import home from './containers/home'
+import skills from './containers/skills'
 import router from './router'
 
 Vue.config.productionTip = false
@@ -15,14 +16,16 @@ new Vue({
     <hero />
     <section class="section">
       <div class="container">
-        <home />
+        <!--<home />-->
+        <skills />
       </div>
-    </section>
+    </section>-
   </div>
   `,
   router,
   components: {
     hero,
-    home
+    home,
+    skills
   }
 }).$mount('#app')
