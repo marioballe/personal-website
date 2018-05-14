@@ -2,7 +2,7 @@
   <div id="skills">
     <headersection :headdata="skillsheader"/>
     <div class="columns">
-      <div v-for="skill in skills" :key="skill.class" class="column is-narrow is-12-mobile is-4-tablet is-2-desktop">
+      <div v-for="skill in skillsStack" :key="skill.class" class="column is-narrow is-12-mobile is-4-tablet is-2-desktop">
         <article class="tile is-child notification with-shadow" :id="skill.class">
           <tileArticle :articleInfo="skill"></tileArticle>
         </article>
@@ -20,7 +20,7 @@
   export default {
     name: 'skills',
     components: { headersection, tileArticle },
-    data () { return { skillsheader, skillsStack } }
+    data () { return {skillsheader, skillsStack } }
   }
 </script>
 
@@ -154,4 +154,8 @@
     -moz-box-shadow: 7px 7px 24px -7px rgba(61,61,61,1);
     box-shadow: 7px 7px 24px -7px rgba(61,61,61,1);
   }
+
+  .title strong {
+    font-weight: 400;
+}
 </style>

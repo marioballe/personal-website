@@ -38,5 +38,9 @@
 			}
 	  	}
 	  }
-  }
+	}
+	.subtitle{
+
+    font-weight: 300;
+}
 </style>
