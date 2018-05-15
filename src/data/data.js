@@ -140,4 +140,6 @@ let resume = {
     profileImage: 'miniatura.png'
   }
 
+  let homeheader = { title: { text: 'Bienvenido a mi pequeño rincón en internet!', icon: 'fa is-danger fa-heart-o' }, subtitle: { text: 'Si quieres conocerme sigue leyendo', icon: '' } }
+  
 export { socialMedia, skillsheader, skillsStack, resume, profileInfo}
