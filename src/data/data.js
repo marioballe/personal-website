@@ -102,5 +102,42 @@ imgPath: '/static/skills/csharp.png',
 class: 'csharp'
 }]
 
+let resume = {
+    code: `
+      let yo = {
+        nombre: Mario,
+        apellido: Ballester,
+        idiomas: ['Castellano', 'Catalán', 'Inglés'],
+        estudios: [{
+          centro: 'Centre d'Estudis Politécnics,
+          grado: 'CFGS Desarrollo de aplicaciones multiplataforma',
+          ciudad: 'Barcelona'
+        }], 
+        experiencia: [{
+            empresa: 'TOKIOTA',
+            puesto: 'Consultor/Desarrollador .Net',
+            tiempo: 'Actualmente'
+          },{
+            empresa: 'Necsia IT Consulting',
+            puesto: 'Programador Junior',
+            tiempo: '6 meses'
+          },{
+            empresa: 'Grup CIEF',
+            puesto: 'Programador Junior',
+            tiempo: '1 año y 2 meses'
+          }]
+      }
+      `,
+    language: 'javascript'
+  }
 
-export { socialMedia, skillsheader, skillsStack}
+  let profileInfo = {
+    title: 'Mario Ballester Calleja',
+    subtitle: 'Construyendo cosas',
+    description: 'Soy una persona muy curiosa a la que le encantan los retos profesionales, siempre tratando de estar informado de las últimas tecnologías. Los cómics de DC y la bicicleta de montaña son dos de mis pasiones. Gracias a mis amigos por mantenerme cuerdo.',
+    date: 'Birthday: 25 Jul. 1989',
+    coverImage: 'portada.png',
+    profileImage: 'miniatura.png'
+  }
+
+export { socialMedia, skillsheader, skillsStack, resume, profileInfo}
