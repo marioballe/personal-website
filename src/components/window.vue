@@ -107,20 +107,20 @@ export default {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  color: #abb2bf;
-  background: #192640;
+  color: #abb2bf!important;
+  background: #192640!important;
 }
 
 .hljs-comment,
 .hljs-quote {
-  color: #5c6370;
+  color: #5c6370!important;
   font-style: italic;
 }
 
 .hljs-doctag,
 .hljs-keyword,
 .hljs-formula {
-  color: #F5AB35;
+  color: #F5AB35!important;
 }
 
 .hljs-section,
@@ -128,11 +128,11 @@ export default {
 .hljs-selector-tag,
 .hljs-deletion,
 .hljs-subst {
-  color: #e06c75;
+  color: #e06c75!important;
 }
 
 .hljs-literal {
-  color: #56b6c2;
+  color: #56b6c2!important;
 }
 
 .hljs-string,
@@ -140,12 +140,12 @@ export default {
 .hljs-addition,
 .hljs-attribute,
 .hljs-meta-string {
-  color: #00d1b2;
+  color: #00d1b2!important;
 }
 
 .hljs-built_in,
 .hljs-class .hljs-title {
-  color: #e6c07b;
+  color: #e6c07b!important;
 }
 
 .hljs-attr,
@@ -156,7 +156,7 @@ export default {
 .hljs-selector-attr,
 .hljs-selector-pseudo,
 .hljs-number {
-  color: #ff3860;
+  color: #ff3860!important;
 }
 
 .hljs-symbol,
@@ -165,7 +165,7 @@ export default {
 .hljs-meta,
 .hljs-selector-id,
 .hljs-title {
-  color: #61aeee;
+  color: #61aeee!important;
 }
 
 .hljs-emphasis {
