@@ -16,7 +16,7 @@ new Vue({
     <hero />
     <section class="section">
       <div class="container">
-        <!--<home />-->
+        <home />
         <skills />
       </div>
     </section>-

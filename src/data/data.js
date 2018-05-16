@@ -109,7 +109,7 @@ let resume = {
         apellido: Ballester,
         idiomas: ['Castellano', 'Catalán', 'Inglés'],
         estudios: [{
-          centro: 'Centre d'Estudis Politécnics,
+          centro: 'Centre d Estudis Politécnics',
           grado: 'CFGS Desarrollo de aplicaciones multiplataforma',
           ciudad: 'Barcelona'
         }], 
@@ -135,11 +135,11 @@ let resume = {
     title: 'Mario Ballester Calleja',
     subtitle: 'Construyendo cosas',
     description: 'Soy una persona muy curiosa a la que le encantan los retos profesionales, siempre tratando de estar informado de las últimas tecnologías. Los cómics de DC y la bicicleta de montaña son dos de mis pasiones. Gracias a mis amigos por mantenerme cuerdo.',
-    date: 'Birthday: 25 Jul. 1989',
+    date: 'Desde: 25 Jul. 1989',
     coverImage: 'portada.png',
     profileImage: 'miniatura.png'
   }
 
-  let homeheader = { title: { text: 'Bienvenido a mi pequeño rincón en internet!', icon: 'fa is-danger fa-heart-o' }, subtitle: { text: 'Si quieres conocerme sigue leyendo', icon: '' } }
+  let cabecera = { title: { text: 'Bienvenido a mi pequeño rincón en internet!', icon: 'fa is-danger fa-heart-o' }, subtitle: { text: 'Si quieres conocerme sigue leyendo', icon: '' } }
   
-export { socialMedia, skillsheader, skillsStack, resume, profileInfo}
+export { socialMedia, skillsheader, skillsStack, resume, profileInfo, cabecera}
