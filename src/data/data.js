@@ -2,7 +2,7 @@ let socialMedia = [{ title: 'Github', url: 'https://github.com/marioballe', icon
 { title: 'Twitter', url: 'https://twitter.com/marioballe89', icon: 'fa fa-twitter' },
 { title: 'Spotify', url: 'https://open.spotify.com/user/hdmario?si=87eqMTk0RIaP_3t6lE7QUw', icon: 'fa fa-spotify' }]
 
-let skillsheader = { title: { text: 'Echa un vistazo rápido a mis habilidades tecnológicas', icon: '' }, subtitle: { text: 'Ha llegado el momento de ver una descripción general de lo que soy capaz de hacer. Aquí hay algunos de los lenguajes, frameworks y herramientas con los que he estado trabajando. Siempre tratando de estar a la moda', icon: 'fa is-primary fa-hand-peace-o' } }
+let skillsheader = { title: { text: 'Echa un vistazo rápido a mis habilidades tecnológicas', icon: '' }, subtitle: { text: 'Me gusta programar, hacer tests, refactorizar y divertirme con el legacy code. Aquí hay algunos de los lenguajes, frameworks y herramientas con los que he estado trabajando. Siempre tratando de estar a la moda', icon: 'fa is-primary fa-hand-peace-o' } }
 
 
 let skillsStack = [{
@@ -16,12 +16,6 @@ title: 'AngularJS',
 description: 'AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML\'s syntax to express your application\'s components clearly and succinctly. AngularJS\'s data binding and dependency injection eliminate much of the code you would otherwise have to write. And it all happens within the browser, making it an ideal partner with any server technology.',
 imgPath: '/static/skills/angular.png',
 class: 'angular'
-}
-,{
-title: 'Nodejs',
-description: 'Node.js is a JavaScript runtime built on Chrome\'s V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.',
-imgPath: '/static/skills/node.png',
-class: 'node'
 }
 ,{
 title: 'npm',
